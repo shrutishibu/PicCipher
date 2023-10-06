@@ -1,0 +1,186 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\piccipherdraft3\settings.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\piccipherdraft3\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloaderBad Request: /api/upload-image/
+Bad Request: /api/upload-image/
+Bad Request: /api/upload-image/
+Bad Request: /api/upload-image/
+Bad Request: /api/upload-image/
+Bad Request: /api/upload-image/
+Bad Request: /api/upload-image/
+Bad Request: /api/upload-image/
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Request Headers: {'Content-Length': '1242227', 'Content-Type': 'multipart/form-data; boundary=bdaddb50-be2a-4630-8558-a62ae9604ba8', 'User-Agent': 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.22621.1778', 'Host': '127.0.0.1:8000', 'Expect': '100-continue', 'Connection': 'Keep-Alive'}
+No image provided in the request.
+Bad Request: /api/upload-image/
+Request Headers: {'Content-Length': '1242227', 'Content-Type': 'multipart/form-data; boundary=bdaddb50-be2a-4630-8558-a62ae9604ba8', 'User-Agent': 'Mozilla/5.0 (Windows NT; Windows NT 10.0; en-IN) WindowsPowerShell/5.1.22621.1778', 'Host': '127.0.0.1:8000', 'Expect': '100-continue'}
+No image provided in the request.
+Bad Request: /api/upload-image/
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/upload-image/
+Traceback (most recent call last):
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py", line 24, in post
+    self.store_data_in_mongodb(uploaded_image, ocr_text)
+  File "C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py", line 37, in store_data_in_mongodb
+    "image_url": uploaded_image.url,
+                 ^^^^^^^^^^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'url'
+Internal Server Error: /api/upload-image/
+Traceback (most recent call last):
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py", line 24, in post
+    self.store_data_in_mongodb(uploaded_image, ocr_text)
+  File "C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py", line 37, in store_data_in_mongodb
+    "image_url": uploaded_image.url,
+                 ^^^^^^^^^^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'url'
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /api/upload-image/
+Traceback (most recent call last):
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py", line 21, in post
+    self.store_data_in_mongodb(uploaded_image, ocr_text)
+  File "C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py", line 34, in store_data_in_mongodb
+    "image_url": uploaded_image.url,
+                 ^^^^^^^^^^^^^^^^^^
+AttributeError: 'InMemoryUploadedFile' object has no attribute 'url'
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /api/upload-image/
+Traceback (most recent call last):
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Shibu Punneth Varkey\.virtualenvs\Shibu_Punneth_Varkey-OTaJPIlG\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py", line 23, in post
+    self.store_data_in_mongodb(uploaded_image, ocr_text)
+  File "C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py", line 35, in store_data_in_mongodb
+    with open(save_path, 'wb') as destination:
+         ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Shibu Punneth Varkey\\OneDrive\\Documents\\VS Code Codes\\Python\\Django\\piccipherdraft3\\media\\uploads\\ocr.jpg'
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+STREAM b'IHDR' 16 13
+STREAM b'tEXt' 41 25
+STREAM b'iTXt' 78 786
+STREAM b'IDAT' 876 109002
+Method Not Allowed: /api/upload-image/
+Method Not Allowed: /api/upload-image/
+STREAM b'IHDR' 16 13
+STREAM b'IDAT' 41 8192
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\apps.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\apps.py changed, reloading.
+C:\Users\Shibu Punneth Varkey\OneDrive\Documents\VS Code Codes\Python\Django\piccipherdraft3\api_3\apps.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
